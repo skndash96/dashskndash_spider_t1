@@ -1,0 +1,11 @@
+Sample env file
+abc=123
+abc="123"
+abc="123 456"
+ab!d=123
+abc=123 456
+abc="12%c"
+
+Sanitized Output
+abc=123
+abc="123 456"
